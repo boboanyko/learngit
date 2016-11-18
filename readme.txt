@@ -1,4 +1,3 @@
-this is the first file;
-readme is a txt;
-go on modify this file;
-let's go on modify this file;
+1.add readme.txt
+2.add gitCommands.txt
+3.add aboutGit.txt

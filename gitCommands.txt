@@ -3,4 +3,7 @@
 3. git commit -m "this is the first test file"
 4. git status 
 5. git diff
-6. git log
+6. git log --pretty=oneline
+7. cat readme.txt
+8. git reset --hard HEAD^ 查看git的最新版本
+9. git reset --hard dc8e925 恢复到当前key为dc8e925开头的版本

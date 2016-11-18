@@ -1,0 +1,6 @@
+1.mkdir learnGit
+2. git add readme.txt
+3. git commit -m "this is the first test file"
+4. git status 
+5. git diff
+6. git log

@@ -10,3 +10,18 @@
 10.git checkout -- readme.txt 让这个文件回到最近一次git commit或git add时的状态。
 11.git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区
 12.git rm file 删除文件
+13.ssh-keygen -t rsa -C "akb_java@126.com" 生成github的私钥
+14.git remote add origin git@github.com:boboanyko/learngit.git
+   git remote add origin git@server-name:path/repo-name.git  远程关联github
+15.git push命令，实际上是把当前分支master推送到远程 加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+   git push -u origin master 第一次推送master分支的所有内容
+   git push origin master 推送最新修改
+16.https://github.com/boboanyko/learngit.git
+17.git push origin master 把本地master分支的最新修改推送至GitHub
+18.git clone git@github.com:boboanyko/gitskills.git 远程库克隆到本地的命令
+19.git checkout -b dev git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+	$ git branch dev
+	$ git checkout dev
+20.git branch命令查看当前分支
+21.git merge命令用于合并指定分支到当前分支
+22.git branch -d dev 删除dev分支
